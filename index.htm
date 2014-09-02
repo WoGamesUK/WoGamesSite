@@ -8,18 +8,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 <!-- NOTIFICATION-->
-<href ="modal_content_name"
-     data-toggle="test-modal"
-<div class="modal fade" id="test_modal">
+<script type="text/javascript">
+    $(window).load(function(){
+        $('#myModal').modal('show');
+    });
+</script>
+<div class="modal hide fade" id="myModal">
   <div class="modal-header">
-    <a class="close" data-dismiss="modal">&times;</a>
+    <a class="close" data-dismiss="modal">×</a>
     <h3>Beta site</h3>
   </div>
   <div class="modal-body">
-    <p>This version of the site is in beta. Use at your own risk. Also, cookies are enabled.</p>
+    <p>This is a mockup of the site and not the final version. Information may be inaccurate. </p>
   </div>
   <div class="modal-footer">
-    <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
+    <a href="#" class="btn btn-primary">Close</a>
   </div>
 </div>
 <!-- GOOGLE FONT-->
